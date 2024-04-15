@@ -5,6 +5,7 @@ import Registerpage from './components/Registerpage';
 import Homepage from './components/Homepage';
 import Contact from './components/Contact';
 import About from './components/About';
+import UserHome from './components/UserHome';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/login' element={<Loginpage/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/userhome' element={<UserHome/>}/>
       </Routes>
       </BrowserRouter>
     </div>

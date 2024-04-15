@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Registerpage = () => {
     const navigate=useNavigate()
@@ -35,7 +35,7 @@ const Registerpage = () => {
   };
   return (
     <center>
-        <div class="background">
+        <div style={{ backgroundColor: '#020217', color: 'white' }}>
                 <div>
                     <div class="login">
                     <div class="card">
@@ -113,6 +113,9 @@ const Registerpage = () => {
                 <button className="btn btn-success" onClick={readvalues}>
                   Register
                 </button>
+              </div>
+              <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                  <center><Link to="/" className="nav-link">Back to Home</Link></center><br></br>
               </div>
             </div>
           </div>

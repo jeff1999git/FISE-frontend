@@ -22,8 +22,8 @@ const Loginpage = () => {
                     // console.log(response.data.userData._id)
                     // sessionStorage.setItem("userid",response.data.userData._id)
                     // navigate("/add")
-                    window.location.href = 'http://localhost:8501/';
-                    alert("Success")
+                    window.location.href = '/UserHome';
+                    
                 } 
                 else if (response.data.status==="incorrect password") {
                     alert("enter correct password")
@@ -39,7 +39,7 @@ const Loginpage = () => {
     }
   return (
         <center>
-        <div class="background">
+        <div style={{ backgroundColor: '#020217', color: 'white' }}>
             <NavbarHome/>
                 <div>
                     <div class="login">
@@ -47,7 +47,7 @@ const Loginpage = () => {
                         <div className="container">
                             <div className="row g-3">
                                 <div class="card-body">
-                                    <h2 class="card-title"><u>LOGIN</u></h2><br></br>
+                                    <h2 class="card-title"><u>LOGIN</u></h2>
                                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 ">
                                         <div className="row g-3">
                                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">

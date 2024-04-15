@@ -3,26 +3,26 @@ import NavbarHome from './NavbarHome'
 
 const Homepage = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: '#020217', color: 'white' }}>
         <NavbarHome/>
       <div className="container">
         <div className="row">
             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                 <div className="row g-3">
                     <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <center>
+                      <br /><br /><br /><br />
+                        
                             <h2>FASHION IMAGE SEARCH ENGINE</h2>
-                        <p>This project aims to develop a fashion image search engine that allows users to find similar 
-clothing items based on uploaded images or visual descriptions. This will help users 
-discover new styles, shop similar pieces, and find inspiration from existing outfits. Object 
-detection is done by pretrained model YOLOv8.Then the detected object and do a 
-similarity check for shopping sites in Google.</p>
-</center>
+                            <br />
+                        <p>Welcome to FISE - Revolutionizing Your Fashion Experience
+                        Discover the future of fashion shopping with Fashin Image Search Engine, your premier online destination for style exploration and wardrobe innovation. Utilizing advanced AI technology, FISE transforms your approach to finding fashion that speaks to your personality and style preferences. At FISE, you're not just shopping; you're embarking on a personalized fashion journey.</p>
+                       
                     </div>
                     <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <center>
-                        <img height={700} src="https://i.pinimg.com/564x/b8/2d/65/b82d651c37274bd1d9c4166962e54df6.jpg" alt="" />
-                        </center>
+                      <br /><br /><br /><br />
+                        
+                        <img height={400} width={650} src="https://images.pexels.com/photos/932401/pexels-photo-932401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                        <br /><br /><br /><br /> <br /><br />
                     </div>
                 </div>
             </div>
